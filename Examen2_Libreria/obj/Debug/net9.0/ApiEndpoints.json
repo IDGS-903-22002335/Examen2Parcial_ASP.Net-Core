@@ -1,0 +1,64 @@
+[
+  {
+    "ContainingType": "Examen2_Libreria.Controllers.ProductosController",
+    "Method": "GetCategorias",
+    "RelativePath": "api/Productos/Categorias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Examen2_Libreria.Controllers.ProductosController",
+    "Method": "GetProductosConCategoria",
+    "RelativePath": "api/Productos/ListaLibros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Examen2_Libreria.Controllers.ProductosController",
+    "Method": "GetProductosPorCategoria",
+    "RelativePath": "api/Productos/PorCategoria/{idCategoria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Examen2_Libreria.Controllers.ProductosController",
+    "Method": "GetProductosPorNombre",
+    "RelativePath": "api/Productos/PorNombre/{nombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Examen2_Libreria.Models.Producto, Examen2_Libreria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
